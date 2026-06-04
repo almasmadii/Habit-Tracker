@@ -4,11 +4,11 @@ pythonfrom dotenv import load_dotenv
 import os
 
 load_dotenv()
-api_key = os.getenv("API_KEY")
-GRAPH_ID="graph1"
-USERNAME="smadi"
-TOKEN="ewiufyweg1jkiu934ugf"
-pixela_endpoint="https://pixe.la/v1/users"
+
+GRAPH_ID=os.getenv("GRAPH_ID")
+USERNAME=os.getenv("USERNAME")
+TOKEN=os.getenv("TOKEN")
+pixela_endpoint=os.getenv("pixela_endpoint")
 
 user_params={
     "token":TOKEN,
