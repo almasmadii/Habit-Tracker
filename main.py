@@ -1,5 +1,10 @@
 import requests
 from datetime import datetime
+pythonfrom dotenv import load_dotenv
+import os
+
+load_dotenv()
+api_key = os.getenv("API_KEY")
 GRAPH_ID="graph1"
 USERNAME="smadi"
 TOKEN="ewiufyweg1jkiu934ugf"
